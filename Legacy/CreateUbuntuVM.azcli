@@ -5,7 +5,7 @@ az vm create \
   --admin-username azureuser \
   --generate-ssh-keys
 
-  az vm extension set \
+az vm extension set \
   --resource-group learn-69452396-0259-4aa6-b944-a0034e561e00 \
   --vm-name my-vm \
   --name customScript \
